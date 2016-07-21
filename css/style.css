@@ -1,0 +1,36 @@
+/*borde*/
+div#borde{
+	border: 1px solid #000;
+}
+
+/*imagen coder*/
+#img-circular{
+	border-radius: 100%;
+}
+p{
+	margin: 20px;
+}
+/*habilidades ul*/
+.barra{
+	margin: 20px 60px; 
+	padding: 20px;
+	background-color: #757373;
+	color: #fff;
+}
+.html{
+	width: 80%;
+	margin-right: 20px; 
+}
+.css{
+	width: 50%;
+	margin-right: 20px; 
+}
+.js{
+	width: 30%;
+	margin-right: 20px; 
+}
+/*imagen portafolio*/
+.img-porta{
+	width: 100%;
+	height: 100%;
+}

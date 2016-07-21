@@ -1,0 +1,99 @@
+/* Ingresa tu css aqui */
+/*borrar esta linea*/
+/*.container{
+	background-color: pink;
+}*/
+
+div{
+	position: relative;
+	/*padding: 20px;*/
+}
+/*fuente para toda la pagina*/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*logo centrado*/
+.logo{
+	/*margin-left: 100px;
+	margin-right: 100px;
+	padding: 30px;*/
+	display: block;
+	margin: auto;
+}
+
+/*estilos del menu*/
+.vertical{
+	border-left: 1px solid #000;
+}
+ul{
+	margin: 
+}
+.menu li{
+	float: left;
+	list-style: none;
+}
+.menu li a{
+	margin: -10px;
+	padding: 15px 60px;	
+	display: block;
+	text-decoration: none;
+	color: #000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.menu li a:hover{ 
+	text-decoration: underline;
+	color: #F4F4F4;
+	background: #222;
+}
+
+/*foto grupal*/
+.img-grupal{
+
+}
+
+/*formato del parrafo*/
+p.txt-centrado{
+	text-align: center;
+	margin: 20px 260px;
+}
+
+/*linea hr*/
+.linea{
+	border: 2px solid #3B3B3B;
+	width: 50px;
+	margin: auto;
+}
+
+hr{
+	border: 2px solid #000;
+	width: 60px;	
+}
+
+/*encabezados titulos*/
+h1, h2, h3{
+	margin: 20px 10px;
+}
+.posicion{
+	position: relative;
+	/*padding-left: 50px;
+	display: inline-block;*/
+}
+/*se aplica a nombre y apellido*/
+.texto{
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+	color: white;
+	font-size: 15px;
+	text-shadow: 2px 2px #000;
+}
+/*opacidad imagen*/
+img{
+	opacity: 0.8;
+}
+/*:not(.logo){
+	opacity: 1;
+}*/
+
